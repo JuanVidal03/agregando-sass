@@ -1,0 +1,770 @@
+/* estilos generales */
+
+*{
+    margin: 0% !important;
+    padding: 0% !important;
+    box-sizing: border-box !important;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif !important;
+    overflow-x: hidden;
+}
+
+body ::selection{
+    color: #000;
+    background-color: #d61919d5;
+}
+
+h1{
+    font-size: 5rem !important;
+}
+h2{
+    font-size: 3.5rem !important;
+}
+h3{
+    font-size: 3rem !important;
+}
+h4{
+    font-size: 2.5rem !important;
+}
+h5{
+    font-size: 2rem !important;
+}
+h6{
+    font-size: 1.5rem !important;
+}
+p{
+    font-size: 1.25rem !important;
+}
+/* fin estilos generales */
+
+/* ========================
+Estilos header
+===========================*/
+
+.img-nav{
+    width: 5rem;
+    border-radius: 50%;
+    border: solid #fff 2px;
+}
+
+.principal-nav-container{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    height: 7rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+.nav-container-desktop{
+    width: 40%;
+
+}
+
+.nav-desktop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-desktop li{
+    list-style: none;
+    transition: all .5s ease;
+}
+
+
+.nav-desktop a{
+    text-decoration: none;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.nav-desktop li:hover{
+    transform: scale(1.2) translateY(-5px);
+}
+
+@media screen and (min-width: 992px) and (max-width: 1180px){
+    .nav-container-desktop{
+        width: 50%;
+
+    }
+}
+@media screen and (max-width: 991px) {
+    .principal-nav-container{
+        display: none;
+    }
+}
+
+/* estilos nav mobile */
+
+.principal-nav-mobile{
+    background-color: #000;
+}
+
+.navbar{
+    background-color: #000 !important;
+}
+
+@media screen and (min-width: 991px) {
+    .principal-nav-mobile{
+        display: none;
+    }
+}
+/* ========================
+Fin Estilos header
+===========================*/
+
+/* ========================
+Estilos section inicio
+===========================*/
+
+#inicio h1{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+#inicio{
+    width: 100%;
+    height: 39rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7rem !important;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("./multimedia/estudio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 547px) {
+    h1{
+        font-size: 3rem !important;
+    }
+}
+
+/* ========================
+Fin Estilos section inicio
+===========================*/
+
+/* ===============================
+Estilos section quienes somos
+==================================*/
+
+#somos{
+    padding: 7rem 5rem !important;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 3rem;
+}
+
+.somos-text{
+    grid-column: 1/2;
+}
+
+.somos-img{
+    grid-column: 2/-1;
+    margin-top: 1.3rem !important;
+}
+
+.somos-title{
+    color: #000;
+    margin-bottom: 1.5rem !important;
+}
+
+.somos-text p{
+    text-align: justify;
+}
+
+.somos-container-img img{
+     width: 100%;
+     border-radius: 20px 0px 20px 0px;
+     box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 991px) {
+
+    .somos-text{
+        grid-column: 1/-1;
+    }
+    
+    .somos-img{
+        grid-column: 1/-1;
+        margin-top: 1.3rem !important;
+    }
+
+    #somos{
+        padding: 5rem 3rem !important;
+    }
+}
+
+/* ==============================
+Fin Estilos section quienes somos
+==================================*/
+
+/* ==============================
+Estilos servicios
+==================================*/
+
+#servicios{
+    padding: 7rem 5rem !important;
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+.servicios-title-container{
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+.contenedor-servicios{
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.servicio-cancion{
+    grid-column: 1/2;
+}
+
+.servicio-video{
+    grid-column: 2/3;
+}
+
+.estilos-servicios{
+    place-self: center;
+    width: 25rem !important;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.estilos-servicios:hover{
+    box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.textos-servicios{
+    margin: 2rem !important;
+    text-align: center;
+}
+
+.textos-servicios h5{
+    margin-bottom: 1rem !important;
+    color: #000;
+}
+
+@media screen and (max-width: 991px) {
+
+    .contenedor-servicios{
+        gap: 3rem;
+    }
+    .servicio-cancion{
+        grid-column: 1/-1;
+    }
+    
+    .servicio-video{
+        grid-column: 1/-1;
+    }
+    #servicios{
+        padding: 5rem 3rem !important;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .estilos-servicios{
+        width: 17rem !important;
+    }
+}
+/* ==============================
+Fin Estilos servicios
+==================================*/
+
+/* ==============================
+Estilos cta
+==================================*/
+
+#cta{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem !important;
+    background-color: #000;
+}
+
+.cta-text h5{
+    color: #fff;
+    grid-column: 1/2;
+}
+
+.container-cta-btn{
+    grid-column: 2/-1;
+    place-self: center;
+}
+
+.cta-btn{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 1rem !important;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    transition: all .5s ease;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.cta-btn:hover{
+    transform: scale(1.1);
+    border-radius: 50px;
+    color: #fff;
+    background-color: #000;
+    border: solid #fff 3px;
+}
+
+@media screen and (max-width: 678px) {
+
+    #cta{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .cta-text{
+        color: #fff;
+        grid-column: 1/-1;
+        text-align: center;
+    }
+
+    .container-cta-btn{
+        grid-column: 1/-1;
+        place-self: center !important;
+        margin-top: 1.5rem !important;
+    }
+
+}
+/* ==============================
+Fin Estilos cta
+==================================*/
+
+/* ==============================
+Estilos artistas
+==================================*/
+    #artistas{
+        padding: 7rem 5rem !important;
+    }
+
+    .artistas-title{
+        text-align: center;
+        color: #000;
+    }
+
+    .artistas-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+    }
+
+    .drake{
+        grid-column: 1/2;
+    }
+
+    .theweeknd{
+        grid-column: 2/3;
+    }
+
+    .wos{
+        grid-column: 3/4;
+    }
+
+    .card-artistas{
+        place-self: center;
+    }
+
+    .img-artistas{
+        width: 20rem !important;
+        border-radius: 20px 0px 0px 0px;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .nombre-artistas{
+        color: #000;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .text-artistas{
+        transition: all .2s ease-in;
+        cursor: pointer;
+        color: #000;
+        font-weight: 100;
+        text-transform: uppercase;
+        font-size: 1rem !important;
+    }
+    .text-artistas:hover{
+        letter-spacing: 1px;
+        color: rgba(0, 0, 0, 0.363);
+    }
+
+    .card-artistas{
+        transition: all .5s ease;
+        border-radius: 20px 0px 20px 0px;
+        border: solid 1px #d4cece;
+    }
+
+    .card-artistas:hover{
+        box-shadow: 10px 10px 60px 5px rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
+    }
+
+    .contenedor-textos-artistas{
+        margin: 1.2rem !important;
+    }
+
+@media screen and (max-width: 1200px) {
+
+    .artistas-container{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .drake{
+        grid-column: 1/2 !important;
+    }
+
+    .theweeknd{
+        grid-column: 2/3 !important;
+    }
+
+    .wos{
+        grid-column: 1/-1 !important;
+    }
+    
+}
+
+@media screen and (max-width: 819px) {
+
+    #artistas{
+        padding: 5rem 0rem !important;
+    }
+    .artistas-container{
+        display: grid !important;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .drake{
+        grid-column: 1/-1 !important;
+    }
+
+    .theweeknd{
+        grid-column: 1/-1 !important;
+    }
+
+    .wos{
+        grid-column: 1/-1 !important;
+    }
+
+    .img-artistas{
+        width: 15rem !important;
+    }
+}
+/* ==============================
+Fin Estilos artistas
+==================================*/
+
+/* ==============================
+Estilos Playlist
+==================================*/
+
+#playlist{
+    padding: 7rem 5rem !important;
+    background-color: #f2f2f2;
+}
+
+.playlist-title-container h2{
+    color: #000;
+    text-align: center;
+}
+
+.playlist-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+
+.playlist-drake, .playlist-theweeknd, .playlist-wos{
+    place-self: center;
+}
+
+.card-playlist{
+    border-radius: 20px 0px 20px 0px !important;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .playlist-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 3rem;
+    }
+    .playlist-drake{
+        grid-column: 1/2 !important;
+    }
+
+    .playlist-theweeknd{
+        grid-column: 2/3 !important;
+    }
+
+    .playlist-wos{
+        grid-column: 1/-1 !important;
+        place-self: center;
+    }
+    
+}
+
+@media screen and (max-width: 819px) {
+
+    #playlist{
+        padding: 5rem 0rem !important;
+    }
+    .playlist-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 3rem;
+    }
+    .playlist-drake{
+        grid-column: 1/-1 !important;
+    }
+
+    .playlist-theweeknd{
+        grid-column: 1/-1 !important;
+    }
+
+    .playlist-wos{
+        grid-column: 1/-1 !important;
+        place-self: center;
+    }
+    
+}
+/* ==============================
+Fin Estilos playlist
+==================================*/
+
+/* ==============================
+Estilos footer
+==================================*/
+
+    #footer{
+        padding: 7rem 5rem 0rem 5rem!important;
+        background-color: #000;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .menu-footer{
+        place-self: center;
+    }
+
+    .navbar-footer{
+        place-self: center;
+    }
+    .navbar-footer li{
+        list-style: none;
+        transition: all .5s ease;
+    }
+
+    .navbar-footer li:hover{
+        transform: translateX(20px);
+    }
+
+    .navbar-footer li a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+
+    .logo-footer{
+        place-self: center;
+    }
+
+    .logo-footer img{
+        width: 10rem;
+        border: solid 1px #fff;
+        border-radius: 50%;
+        transition: all .5s ease;
+    }
+
+    .logo-footer img:hover{
+        transform: rotate(360deg);
+    }
+
+    .social-media-footer{
+        place-self: center;
+    }
+
+    .social-media-footer p{
+        text-align: center;
+        color: #fff;
+    }
+
+    .social-media-container{
+        margin: auto !important;
+        width: 50% !important;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .social-media-container img{
+        width: 2rem !important;
+        transition: all .5s ease;
+    }
+
+    .social-media-container img:hover{
+        transform: scale(1.2);
+    }
+
+    .personal-information{
+        grid-column: 1/-1;
+        border-top: solid 1px #fff;
+    }
+
+    .personal-information p{
+        padding: 1rem !important;
+        text-align: center;
+        color: #fff;
+    }
+
+    .personal-information p a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    @media screen and (max-width: 916px) {
+        #footer{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+        }
+
+        .menu-footer{
+            grid-column: 1/2;
+        }
+
+        .logo-footer{
+            grid-column: 2/3;
+        }
+
+        .social-media-footer{
+            grid-column: 1/-1;
+            margin-top: 2rem !important;
+            place-self: center;
+            width: 450px !important;
+        }
+    }
+
+    @media screen and (max-width: 580px) {
+        #footer{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            padding: 5rem 2rem !important;
+        }
+
+        .menu-footer{
+            grid-column: 1/-1;
+            place-self: center;
+        }
+
+        .logo-footer{
+            grid-column: 1/-1;
+            margin-top: 2rem !important;
+            place-self: center;
+        }
+
+        .social-media-footer{
+            grid-column: 1/-1;
+            width: 300px !important;
+            margin-top: 2rem !important;
+            place-self: center;
+        }
+    }
+/* ==============================
+Fin Estilos footer
+==================================*/
+
+/* ==============================
+Estilos formulario
+==================================*/
+
+    #formulario{
+        padding: 13rem 5rem 7rem 5rem !important;
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .text-formulario{
+        text-align: justify;
+        grid-column: 1/2;
+    }
+
+    .form{
+        grid-column: 2/-1;
+    }
+
+    .btn-form{
+        padding: 1rem 2rem !important;
+        font-size: 1.1rem !important;
+        text-transform: uppercase;
+        border-radius: 20px 0px 20px 0px !important;
+        background-color: #000 !important;
+        transition: all .5s ease !important;
+    }
+
+    .btn-form:hover{
+        border: solid #000 3px !important;
+        border-radius: 50px !important;
+        color: #000 !important;
+        background-color: #fff !important;
+        font-weight: 700 !important;
+    }
+
+    .input{
+        padding: .5rem !important;
+    }
+
+    @media screen and (max-width: 800px) {
+        #formulario{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            padding: 5rem 2rem !important;
+        }
+
+        .text-formulario{
+            grid-column: 1/-1;
+        }
+
+        .form{
+            grid-column: 1/-1;
+        }
+    }
+/* ==============================
+Fin Estilos formulario
+==================================*/
