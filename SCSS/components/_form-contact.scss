@@ -1,0 +1,65 @@
+@import "../base/variables";
+@import "../base/estilos-generales";
+@import "../base/extends";
+
+/* ==============================
+Estilos formulario
+==================================*/
+
+#formulario{
+    padding: 10rem 5rem 7rem 5rem !important;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.text-formulario{
+    text-align: justify;
+    grid-column: 1/2;
+}
+
+.form{
+    grid-column: 2/-1;
+}
+
+.btn-form{
+    padding: 1rem 2rem !important;
+    font-size: 1.1rem !important;
+    text-transform: uppercase;
+    border-radius: 20px 0px 20px 0px !important;;
+    background-color: $color-primario !important;
+    transition: all .5s ease !important;
+
+    &:hover{
+        border: solid $color-primario 3px !important;
+        border-radius: 50px !important;
+        color: #000 !important;
+        background-color: #fff !important;
+        font-weight: 700 !important;
+    }
+}
+
+.input{
+    padding: .5rem !important;
+}
+
+@media screen and (max-width: 800px) {
+    #formulario{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding: 5rem 2rem !important;
+    }
+
+    .text-formulario{
+        grid-column: 1/-1;
+    }
+
+    .form{
+        grid-column: 1/-1;
+    }
+}
+/* ==============================
+Fin Estilos formulario
+==================================*/
