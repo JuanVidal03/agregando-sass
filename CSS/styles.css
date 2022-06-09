@@ -121,6 +121,31 @@ p {
   font-size: 1.25rem !important; }
 
 /* fin estilos generales */
+.cta-btn, .somos-container-img img {
+  border-radius: 20px 0px 20px 0px; }
+
+.somos-container-img img, .estilos-servicios:hover {
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
+
+.cta-btn:hover {
+  transform: scale(1.1);
+  border-radius: 50px;
+  color: #fff;
+  background-color: #000;
+  border: solid #fff 3px; }
+
+.cta-btn {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem !important;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  transition: all .5s ease; }
+
+#somos, #servicios {
+  padding: 7rem 5rem !important; }
+
 /* ========================
 Estilos section inicio
 ===========================*/
@@ -140,10 +165,329 @@ Estilos section inicio
   text-align: center; }
 
 @media screen and (max-width: 547px) {
+  #incio {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important; }
+
   h1 {
     font-size: 3rem !important; } }
 /* ========================
 Fin Estilos section inicio
 ===========================*/
+/* estilos generales */
+* {
+  margin: 0% !important;
+  padding: 0% !important;
+  box-sizing: border-box !important; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif !important;
+  overflow-x: hidden; }
+  body ::selection {
+    color: #000;
+    background-color: #d61919d5; }
+
+h1 {
+  font-size: 5rem !important; }
+
+h2 {
+  font-size: 3.5rem !important; }
+
+h3 {
+  font-size: 3rem !important; }
+
+h4 {
+  font-size: 2.5rem !important; }
+
+h5 {
+  font-size: 2rem !important; }
+
+h6 {
+  font-size: 1.5rem !important; }
+
+p {
+  font-size: 1.25rem !important; }
+
+/* fin estilos generales */
+.cta-btn, .somos-container-img img {
+  border-radius: 20px 0px 20px 0px; }
+
+.somos-container-img img, .estilos-servicios:hover {
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
+
+.cta-btn:hover {
+  transform: scale(1.1);
+  border-radius: 50px;
+  color: #fff;
+  background-color: #000;
+  border: solid #fff 3px; }
+
+.cta-btn {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem !important;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  transition: all .5s ease; }
+
+#somos, #servicios {
+  padding: 7rem 5rem !important; }
+
+/* ===============================
+Estilos section quienes somos
+==================================*/
+#somos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 3rem; }
+
+.somos-text {
+  grid-column: 1/2; }
+
+.somos-img {
+  grid-column: 2/-1;
+  margin-top: 1.3rem !important; }
+
+.somos-title {
+  color: #000;
+  margin-bottom: 1.5rem !important; }
+
+.somos-text p {
+  text-align: justify; }
+
+.somos-container-img img {
+  width: 100%; }
+
+@media screen and (max-width: 991px) {
+  .somos-text {
+    grid-column: 1/-1; }
+
+  .somos-img {
+    grid-column: 1/-1;
+    margin-top: 1.3rem !important; }
+
+  #somos {
+    padding: 5rem 2rem !important; } }
+/* ==============================
+Fin Estilos section quienes somos
+==================================*/
+/* estilos generales */
+* {
+  margin: 0% !important;
+  padding: 0% !important;
+  box-sizing: border-box !important; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif !important;
+  overflow-x: hidden; }
+  body ::selection {
+    color: #000;
+    background-color: #d61919d5; }
+
+h1 {
+  font-size: 5rem !important; }
+
+h2 {
+  font-size: 3.5rem !important; }
+
+h3 {
+  font-size: 3rem !important; }
+
+h4 {
+  font-size: 2.5rem !important; }
+
+h5 {
+  font-size: 2rem !important; }
+
+h6 {
+  font-size: 1.5rem !important; }
+
+p {
+  font-size: 1.25rem !important; }
+
+/* fin estilos generales */
+.cta-btn, .somos-container-img img {
+  border-radius: 20px 0px 20px 0px; }
+
+.somos-container-img img, .estilos-servicios:hover {
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
+
+.cta-btn:hover {
+  transform: scale(1.1);
+  border-radius: 50px;
+  color: #fff;
+  background-color: #000;
+  border: solid #fff 3px; }
+
+.cta-btn {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem !important;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  transition: all .5s ease; }
+
+#somos, #servicios {
+  padding: 7rem 5rem !important; }
+
+/* ==============================
+Estilos servicios
+==================================*/
+#servicios {
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto); }
+
+.servicios-title-container {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: center;
+  color: #000; }
+
+.contenedor-servicios {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+.servicio-cancion {
+  grid-column: 1/2; }
+
+.servicio-video {
+  grid-column: 2/3; }
+
+.estilos-servicios {
+  place-self: center;
+  width: 25rem !important;
+  transition: all .3s;
+  cursor: pointer; }
+  .estilos-servicios:hover {
+    transform: scale(1.1); }
+
+.textos-servicios {
+  margin: 2rem !important;
+  text-align: center; }
+
+.textos-servicios h5 {
+  margin-bottom: 1rem !important;
+  color: #000; }
+
+@media screen and (max-width: 991px) {
+  .contenedor-servicios {
+    gap: 3rem; }
+
+  .servicio-cancion {
+    grid-column: 1/-1; }
+
+  .servicio-video {
+    grid-column: 1/-1; }
+
+  #servicios {
+    padding: 5rem 2rem !important; } }
+@media screen and (max-width: 495px) {
+  .estilos-servicios {
+    width: 17rem !important; } }
+/* ==============================
+Fin Estilos servicios
+==================================*/
+/* estilos generales */
+* {
+  margin: 0% !important;
+  padding: 0% !important;
+  box-sizing: border-box !important; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif !important;
+  overflow-x: hidden; }
+  body ::selection {
+    color: #000;
+    background-color: #d61919d5; }
+
+h1 {
+  font-size: 5rem !important; }
+
+h2 {
+  font-size: 3.5rem !important; }
+
+h3 {
+  font-size: 3rem !important; }
+
+h4 {
+  font-size: 2.5rem !important; }
+
+h5 {
+  font-size: 2rem !important; }
+
+h6 {
+  font-size: 1.5rem !important; }
+
+p {
+  font-size: 1.25rem !important; }
+
+/* fin estilos generales */
+.cta-btn, .somos-container-img img {
+  border-radius: 20px 0px 20px 0px; }
+
+.somos-container-img img, .estilos-servicios:hover {
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
+
+.cta-btn:hover {
+  transform: scale(1.1);
+  border-radius: 50px;
+  color: #fff;
+  background-color: #000;
+  border: solid #fff 3px; }
+
+.cta-btn {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem !important;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  transition: all .5s ease; }
+
+#somos, #servicios {
+  padding: 7rem 5rem !important; }
+
+/* ==============================
+Estilos cta
+==================================*/
+#cta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem !important;
+  background-color: #000; }
+
+.cta-text h5 {
+  color: #fff;
+  grid-column: 1/2; }
+
+.container-cta-btn {
+  grid-column: 2/-1;
+  place-self: center; }
+
+@media screen and (max-width: 678px) {
+  #cta {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr); }
+
+  .cta-text {
+    color: #fff;
+    grid-column: 1/-1;
+    text-align: center; }
+
+  .container-cta-btn {
+    grid-column: 1/-1;
+    place-self: center !important;
+    margin-top: 1.5rem !important; } }
+/* ==============================
+Fin Estilos cta
+==================================*/
 
 /*# sourceMappingURL=styles.css.map */

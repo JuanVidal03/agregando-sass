@@ -1,0 +1,62 @@
+@import "../base/variables";
+@import "../base/estilos-generales";
+@import "../base/extends";
+
+/* ==============================
+Estilos cta
+==================================*/
+
+#cta{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem !important;
+    background-color: $color-primario;
+}
+
+.cta-text{
+
+    h5{
+        color: $color-secundario;
+        grid-column: 1/2;
+    }
+}
+
+.container-cta-btn{
+    grid-column: 2/-1;
+    place-self: center;
+}
+
+.cta-btn{
+
+    @extend %botones;
+    
+        &:hover{
+            @extend %botones-hover;
+        }
+    
+}
+
+@media screen and (max-width: 678px) {
+
+    #cta{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .cta-text{
+        color: $color-secundario;
+        grid-column: 1/-1;
+        text-align: center;
+    }
+
+    .container-cta-btn{
+        grid-column: 1/-1;
+        place-self: center !important;
+        margin-top: 1.5rem !important;
+    }
+
+}
+
+/* ==============================
+Fin Estilos cta
+==================================*/

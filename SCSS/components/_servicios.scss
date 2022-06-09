@@ -1,0 +1,85 @@
+@import "../base/variables";
+@import "../base/estilos-generales";
+@import "../base/extends";
+
+/* ==============================
+Estilos servicios
+==================================*/
+
+    #servicios{
+        @extend %estilo-section-desktop;
+        background-color: $color-secundario-fondo;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+    }
+
+    .servicios-title-container{
+        grid-column: 1/-1;
+        display: flex;
+        justify-content: center;
+        color: $color-primario;
+    }
+
+    .contenedor-servicios{
+        grid-column: 1/-1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .servicio-cancion{
+        grid-column: 1/2;
+    }
+    
+    .servicio-video{
+        grid-column: 2/3;
+    }
+    
+    .estilos-servicios{
+        place-self: center;
+        width: 25rem !important;
+        transition: all .3s;
+        cursor: pointer;
+
+            &:hover{
+                @extend %box-shadow;
+                transform: scale(1.1);
+            }
+    }
+
+    .textos-servicios{
+        margin: 2rem !important;
+        text-align: center;
+    }
+    
+    .textos-servicios h5{
+        margin-bottom: 1rem !important;
+        color: $color-primario;
+    }
+    
+    @media screen and (max-width: 991px) {
+
+        .contenedor-servicios{
+            gap: 3rem;
+        }
+        .servicio-cancion{
+            grid-column: 1/-1;
+        }
+        
+        .servicio-video{
+            grid-column: 1/-1;
+        }
+        #servicios{
+            padding: 5rem 2rem !important;
+        }
+    }
+    
+    @media screen and (max-width: 495px) {
+        .estilos-servicios{
+            width: 17rem !important;
+        }
+    }
+
+/* ==============================
+Fin Estilos servicios
+==================================*/

@@ -1,0 +1,60 @@
+@import "../base/variables";
+@import "../base/estilos-generales";
+@import "../base/extends";
+
+/* ===============================
+Estilos section quienes somos
+==================================*/
+
+    #somos{
+        @extend %estilo-section-desktop;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 3rem;
+    }
+
+    .somos-text{
+        grid-column: 1/2;
+    }
+    
+    .somos-img{
+        grid-column: 2/-1;
+        margin-top: 1.3rem !important;
+    }
+    
+    .somos-title{
+        color: $color-primario;
+        margin-bottom: 1.5rem !important;
+    }
+    
+    .somos-text p{
+        text-align: justify;
+    }
+    
+    .somos-container-img img{
+         width: 100%;
+         @extend %border-radius;
+         @extend %box-shadow;
+    }
+
+    @media screen and (max-width: 991px) {
+
+        .somos-text{
+            grid-column: 1/-1;
+        }
+        
+        .somos-img{
+            grid-column: 1/-1;
+            margin-top: 1.3rem !important;
+        }
+    
+        #somos{
+            padding: 5rem 2rem !important;
+        }
+    }
+
+/* ==============================
+Fin Estilos section quienes somos
+==================================*/

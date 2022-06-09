@@ -5,7 +5,7 @@
 }
 
 %box-shadow {
-    box-shadow: rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3);
 }
 
 %botones-hover{
@@ -33,8 +33,4 @@
 
 %estilo-section-desktop{
     padding: 7rem 5rem !important;
-}
-
-%estilo-section-mobile{
-    padding: 5rem 2rem !important;
 }
