@@ -1,0 +1,40 @@
+//Extends
+
+%border-radius {
+    border-radius: 20px 0px 20px 0px;
+}
+
+%box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+%botones-hover{
+    transform: scale(1.1);
+    border-radius: 50px;
+    color: $color-secundario;
+    background-color: $color-primario;
+    border: solid $color-secundario 3px;
+}
+
+%botones{
+    text-decoration: none;
+    background-color: $color-secundario;
+    padding: 1rem !important;
+    text-transform: uppercase;
+    color: $color-primario;
+    font-weight: 700;
+    transition: all .5s ease;
+    @extend %border-radius;
+
+    &:hover{
+        @extend %botones-hover;
+    }
+}
+
+%estilo-section-desktop{
+    padding: 7rem 5rem !important;
+}
+
+%estilo-section-mobile{
+    padding: 5rem 2rem !important;
+}

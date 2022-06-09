@@ -1,0 +1,40 @@
+@import "./variables";
+
+/* estilos generales */
+*{
+    margin: 0% !important;
+    padding: 0% !important;
+    box-sizing: border-box !important;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif !important;
+    overflow-x: hidden;
+
+    & ::selection{
+        color: $color-primario;
+        background-color: $color-selection;
+    }
+}
+
+h1{
+    font-size: nth($font-size, 1 )!important;
+}
+h2{
+    font-size: nth($font-size, 2 ) !important;
+}
+h3{
+    font-size: nth($font-size, 3 ) !important;
+}
+h4{
+    font-size: nth($font-size, 4 ) !important;
+}
+h5{
+    font-size: nth($font-size, 5 ) !important;
+}
+h6{
+    font-size: nth($font-size, 6 ) !important;
+}
+p{
+    font-size: nth($font-size, 7 ) !important;
+}
+/* fin estilos generales */

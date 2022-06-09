@@ -1,0 +1,77 @@
+@import "../base/variables";
+@import "../base/estilos-generales";
+
+/* ========================
+Estilos header
+===========================*/
+
+    /*estilos desktop*/
+
+    .img-nav{
+        width: 5rem;
+        border-radius: 50%;
+        border: solid $color-secundario 2px;
+    }
+
+    .principal-nav-container{
+        width: 100%;
+        background-color: $color-primario;
+        display: flex;
+        height: 7rem;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .nav-container-desktop{
+        width: 40%;
+    }
+
+    .nav-desktop{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        li{
+            list-style: none;
+        transition: all .5s ease;
+
+            &:hover{
+                transform: scale(1.2) translateY(-5px);
+            }
+        }
+
+        a{
+            text-decoration: none;
+            color: $color-secundario !important;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+        }
+    }
+
+    /*estilos mobile*/
+
+    .principal-nav-mobile{
+        background-color: $color-primario;
+    }
+    
+    .navbar{
+        background-color: $color-primario !important;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1180px){
+        .nav-container-desktop{
+            width: 50%;
+    
+        }
+    }
+    @media screen and (max-width: 991px) {
+        .principal-nav-container{
+            display: none;
+        }
+    }
+
+/* ========================
+Fin Estilos header
+===========================*/
