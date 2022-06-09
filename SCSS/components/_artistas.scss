@@ -1,0 +1,132 @@
+@import "../base/variables";
+@import "../base/estilos-generales";
+@import "../base/extends";
+
+/* ==============================
+Estilos artistas
+==================================*/
+
+#artistas{
+    @extend %estilo-section-desktop;
+}
+
+.artistas-title{
+    text-align: center;
+    color: $color-primario;
+}
+
+.artistas-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.drake{
+    grid-column: 1/2;
+}
+
+.theweeknd{
+    grid-column: 2/3;
+}
+
+.wos{
+    grid-column: 3/4;
+}
+
+.card-artistas{
+    place-self: center;
+}
+
+.img-artistas{
+    width: 20rem !important;
+    @extend %border-radius;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.nombre-artistas{
+    color: $color-primario;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.text-artistas{
+    transition: all .2s ease-in;
+    cursor: pointer;
+    color: $color-primario;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1rem !important;
+
+    &:hover{
+        letter-spacing: 1px;
+        color: rgba(0, 0, 0, 0.363);
+    }
+}
+
+.card-artistas{
+        transition: all .5s ease;
+        @extend %border-radius;
+        border: solid 1px #d4cece;
+
+        &:hover{
+            @extend %box-shadow;
+            transform: scale(1.1);
+        }
+}
+
+.contenedor-textos-artistas{
+    margin: 1.2rem !important;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .artistas-container{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .drake{
+        grid-column: 1/2 !important;
+    }
+
+    .theweeknd{
+        grid-column: 2/3 !important;
+    }
+
+    .wos{
+        grid-column: 1/-1 !important;
+    }
+    
+}
+
+@media screen and (max-width: 819px) {
+
+    #artistas{
+        padding: 5rem 0rem !important;
+    }
+    .artistas-container{
+        display: grid !important;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .drake{
+        grid-column: 1/-1 !important;
+    }
+
+    .theweeknd{
+        grid-column: 1/-1 !important;
+    }
+
+    .wos{
+        grid-column: 1/-1 !important;
+    }
+
+    .img-artistas{
+        width: 15rem !important;
+    }
+}
+
+/* ==============================
+Fin Estilos artistas
+==================================*/

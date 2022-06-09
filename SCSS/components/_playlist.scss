@@ -1,0 +1,84 @@
+@import "../base/variables";
+@import "../base/estilos-generales";
+@import "../base/extends";
+
+/* ==============================
+Estilos Playlist
+==================================*/
+
+#playlist{
+    @extend %estilo-section-desktop;
+    background-color: #f2f2f2;
+}
+
+.playlist-title-container h2{
+    color: $color-primario;
+    text-align: center;
+}
+
+.playlist-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+
+.playlist-drake, .playlist-theweeknd, .playlist-wos{
+    place-self: center;
+}
+
+.card-playlist{
+    border-radius: 20px 0px 20px 0px !important;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .playlist-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 3rem;
+    }
+    .playlist-drake{
+        grid-column: 1/2 !important;
+    }
+
+    .playlist-theweeknd{
+        grid-column: 2/3 !important;
+    }
+
+    .playlist-wos{
+        grid-column: 1/-1 !important;
+        place-self: center;
+    }
+    
+}
+
+@media screen and (max-width: 819px) {
+
+    #playlist{
+        padding: 5rem 0rem !important;
+    }
+    .playlist-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 3rem;
+    }
+    .playlist-drake{
+        grid-column: 1/-1 !important;
+    }
+
+    .playlist-theweeknd{
+        grid-column: 1/-1 !important;
+    }
+
+    .playlist-wos{
+        grid-column: 1/-1 !important;
+        place-self: center;
+    }
+    
+}
+
+/* ==============================
+Fin Estilos playlist
+==================================*/
