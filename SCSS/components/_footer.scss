@@ -1,0 +1,150 @@
+@import "../base/variables";
+@import "../base/estilos-generales";
+@import "../base/extends";
+
+/* ==============================
+Estilos footer
+==================================*/
+
+#footer{
+    padding: 7rem 5rem 1rem 5rem !important;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.menu-footer{
+    place-self: center;
+}
+
+.navbar-footer{
+    place-self: center;
+
+    li{
+        list-style: none;
+        transition: all .5s ease;
+
+        &:hover{
+            transform: translateX(20px);
+        }
+
+        a{
+            text-decoration: none;
+            color: $color-secundario;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.logo-footer{
+    place-self: center;
+
+    img{
+        width: 10rem;
+        border: solid 1px $color-secundario;
+        border-radius: 50%;
+        transition: all .5s ease;
+
+        &:hover{
+            transform: rotate(360deg);
+        }
+    }
+}
+
+.social-media-footer{
+    place-self: center;
+
+    p{
+        text-align: center;
+        color: $color-secundario;
+    }
+}
+
+.social-media-container{
+    margin: auto !important;
+    width: 50% !important;
+    display: flex;
+    justify-content: space-around;
+
+    img{
+        width: 2rem !important;
+        transition: all .5s ease;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+
+.personal-information{
+    grid-column: 1/-1;
+    border-top: solid 1px $color-secundario;
+
+    p{
+        padding: 1rem !important;
+        text-align: center;
+        color: $color-secundario;
+
+        a{
+            text-decoration: none;
+            color: $color-secundario;
+            font-weight: 700;
+        }
+    }
+}
+
+@media screen and (max-width: 916px) {
+    #footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .menu-footer{
+        grid-column: 1/2;
+    }
+
+    .logo-footer{
+        grid-column: 2/3;
+    }
+
+    .social-media-footer{
+        grid-column: 1/-1;
+        margin-top: 2rem !important;
+        place-self: center;
+        width: 450px !important;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding: 5rem 2rem !important;
+    }
+
+    .menu-footer{
+        grid-column: 1/-1;
+        place-self: center;
+    }
+
+    .logo-footer{
+        grid-column: 1/-1;
+        margin-top: 2rem !important;
+        place-self: center;
+    }
+
+    .social-media-footer{
+        grid-column: 1/-1;
+        width: 300px !important;
+        margin-top: 2rem !important;
+        place-self: center;
+    }
+}
+
+/* ==============================
+Fin Estilos footer
+==================================*/
