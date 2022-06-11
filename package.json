@@ -1,0 +1,23 @@
+{
+  "name": "aplicando-sass-juan-vidal",
+  "version": "1.0.0",
+  "description": "Un sitio web usando HTML5, CSS3, Bootstrap y SASS <h1 align=\"center\">Hi 👋, I'm Juan Vidal</h1> <h3 align=\"center\">A passionate frontend developer from Colombia</h3>",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.52.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanVidal03/agregando-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanVidal03/agregando-sass/issues"
+  },
+  "homepage": "https://github.com/JuanVidal03/agregando-sass#readme"
+}
