@@ -3,7 +3,7 @@ Un sitio web usando HTML5, CSS3, Bootstrap y SASS
 <h1 align="center">Hi 👋, I'm Juan Vidal</h1>
 <h3 align="center">A passionate frontend developer from Colombia</h3>
 
-- 🔭 I’m currently working on **Aplicando SASS**
+- 🔭 I’m currently working on **Proyecto Final CoderHouse**
 
 - 🌱 I’m currently learning **HTML5, CSS3, SASS and Bootstrap**
 
