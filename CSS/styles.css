@@ -155,7 +155,7 @@ Estilos section inicio
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/estudio.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../multimedia/estudio.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -165,12 +165,10 @@ Estilos section inicio
   text-align: center; }
 
 @media screen and (max-width: 547px) {
-  #incio {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important; }
-
-  h1 {
-    font-size: 3rem !important; } }
+  #inicio {
+    padding: 0rem 2rem !important; }
+    #inicio h1 {
+      font-size: 3rem !important; } }
 /* ========================
 Fin Estilos section inicio
 ===========================*/
@@ -390,7 +388,7 @@ Estilos servicios
     padding: 5rem 2rem !important; } }
 @media screen and (max-width: 495px) {
   .estilos-servicios {
-    width: 17rem !important; } }
+    width: 15rem !important; } }
 /* ==============================
 Fin Estilos servicios
 ==================================*/
@@ -717,6 +715,9 @@ Estilos Playlist
 
 .playlist-drake, .playlist-theweeknd, .playlist-wos {
   place-self: center; }
+  .playlist-drake iframe, .playlist-theweeknd iframe, .playlist-wos iframe {
+    width: 300px;
+    height: 400px; }
 
 .card-playlist {
   border-radius: 20px 0px 20px 0px !important; }
@@ -739,7 +740,7 @@ Estilos Playlist
     place-self: center; } }
 @media screen and (max-width: 819px) {
   #playlist {
-    padding: 5rem 0rem !important; }
+    padding: 5rem 2rem !important; }
 
   .playlist-container {
     display: grid;
@@ -748,14 +749,25 @@ Estilos Playlist
     gap: 3rem; }
 
   .playlist-drake {
-    grid-column: 1/-1 !important; }
+    grid-column: 1/-1 !important;
+    place-self: center; }
+    .playlist-drake iframe {
+      width: 200px !important;
+      height: 300px !important; }
 
   .playlist-theweeknd {
-    grid-column: 1/-1 !important; }
+    grid-column: 1/-1 !important;
+    place-self: center; }
+    .playlist-theweeknd iframe {
+      width: 200px !important;
+      height: 300px !important; }
 
   .playlist-wos {
     grid-column: 1/-1 !important;
-    place-self: center; } }
+    place-self: center; }
+    .playlist-wos iframe {
+      width: 200px !important;
+      height: 300px !important; } }
 /* ==============================
 Fin Estilos playlist
 ==================================*/

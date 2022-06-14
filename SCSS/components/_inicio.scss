@@ -32,14 +32,14 @@ Estilos section inicio
 
     @media screen and (max-width: 547px) {
 
-        #incio{
-            padding-left: 2rem !important;
-            padding-right: 2rem !important;
+        #inicio{
+            padding: 0rem 2rem !important;
+
+            h1{
+                font-size: 3rem !important;
+            }
         }
         
-        h1{
-            font-size: 3rem !important;
-        }
     }
 
 /* ========================
