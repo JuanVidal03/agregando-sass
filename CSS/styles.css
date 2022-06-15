@@ -155,7 +155,7 @@ Estilos section inicio
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../multimedia/estudio.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../multimedia/estudio.webp");
   background-size: cover;
   background-repeat: no-repeat; }
 
