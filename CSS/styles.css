@@ -576,6 +576,10 @@ Estilos artistas
   transition: all .5s ease-in-out;
   cursor: pointer; }
 
+.link-artistas {
+  color: #000;
+  text-decoration: none; }
+
 .nombre-artistas {
   color: #000;
   font-weight: 700;

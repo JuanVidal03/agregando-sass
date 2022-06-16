@@ -44,6 +44,11 @@ Estilos artistas
     cursor: pointer;
 }
 
+.link-artistas{
+    color: $color-primario;
+    text-decoration: none;
+}
+
 .nombre-artistas{
     color: $color-primario;
     font-weight: 700;
