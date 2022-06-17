@@ -5,8 +5,7 @@
   box-sizing: border-box !important; }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif !important;
-  overflow-x: hidden; }
+  font-family: 'Roboto Condensed', sans-serif !important; }
   body ::selection {
     color: #000;
     background-color: #d61919d5; }
@@ -93,8 +92,7 @@ Fin Estilos header
   box-sizing: border-box !important; }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif !important;
-  overflow-x: hidden; }
+  font-family: 'Roboto Condensed', sans-serif !important; }
   body ::selection {
     color: #000;
     background-color: #d61919d5; }
@@ -121,10 +119,10 @@ p {
   font-size: 1.25rem !important; }
 
 /* fin estilos generales */
-.cta-btn, .somos-container-img img, .img-artistas, .card-artistas {
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   border-radius: 20px 0px 20px 0px; }
 
-.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover {
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
 
 .cta-btn:hover {
@@ -143,8 +141,13 @@ p {
   font-weight: 700;
   transition: all .5s ease; }
 
-#somos, #servicios, #artistas, #playlist {
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
   padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
 
 /* ========================
 Estilos section inicio
@@ -179,8 +182,7 @@ Fin Estilos section inicio
   box-sizing: border-box !important; }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif !important;
-  overflow-x: hidden; }
+  font-family: 'Roboto Condensed', sans-serif !important; }
   body ::selection {
     color: #000;
     background-color: #d61919d5; }
@@ -207,10 +209,10 @@ p {
   font-size: 1.25rem !important; }
 
 /* fin estilos generales */
-.cta-btn, .somos-container-img img, .img-artistas, .card-artistas {
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   border-radius: 20px 0px 20px 0px; }
 
-.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover {
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
 
 .cta-btn:hover {
@@ -229,8 +231,13 @@ p {
   font-weight: 700;
   transition: all .5s ease; }
 
-#somos, #servicios, #artistas, #playlist {
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
   padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
 
 /* ===============================
 Estilos section quienes somos
@@ -279,8 +286,7 @@ Fin Estilos section quienes somos
   box-sizing: border-box !important; }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif !important;
-  overflow-x: hidden; }
+  font-family: 'Roboto Condensed', sans-serif !important; }
   body ::selection {
     color: #000;
     background-color: #d61919d5; }
@@ -307,10 +313,10 @@ p {
   font-size: 1.25rem !important; }
 
 /* fin estilos generales */
-.cta-btn, .somos-container-img img, .img-artistas, .card-artistas {
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   border-radius: 20px 0px 20px 0px; }
 
-.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover {
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
 
 .cta-btn:hover {
@@ -329,8 +335,13 @@ p {
   font-weight: 700;
   transition: all .5s ease; }
 
-#somos, #servicios, #artistas, #playlist {
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
   padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
 
 /* ==============================
 Estilos servicios
@@ -399,8 +410,7 @@ Fin Estilos servicios
   box-sizing: border-box !important; }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif !important;
-  overflow-x: hidden; }
+  font-family: 'Roboto Condensed', sans-serif !important; }
   body ::selection {
     color: #000;
     background-color: #d61919d5; }
@@ -427,10 +437,10 @@ p {
   font-size: 1.25rem !important; }
 
 /* fin estilos generales */
-.cta-btn, .somos-container-img img, .img-artistas, .card-artistas {
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   border-radius: 20px 0px 20px 0px; }
 
-.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover {
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
 
 .cta-btn:hover {
@@ -449,8 +459,13 @@ p {
   font-weight: 700;
   transition: all .5s ease; }
 
-#somos, #servicios, #artistas, #playlist {
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
   padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
 
 /* ==============================
 Estilos cta
@@ -494,8 +509,7 @@ Fin Estilos cta
   box-sizing: border-box !important; }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif !important;
-  overflow-x: hidden; }
+  font-family: 'Roboto Condensed', sans-serif !important; }
   body ::selection {
     color: #000;
     background-color: #d61919d5; }
@@ -522,10 +536,10 @@ p {
   font-size: 1.25rem !important; }
 
 /* fin estilos generales */
-.cta-btn, .somos-container-img img, .img-artistas, .card-artistas {
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   border-radius: 20px 0px 20px 0px; }
 
-.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover {
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
 
 .cta-btn:hover {
@@ -544,8 +558,13 @@ p {
   font-weight: 700;
   transition: all .5s ease; }
 
-#somos, #servicios, #artistas, #playlist {
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
   padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
 
 /* ==============================
 Estilos artistas
@@ -649,8 +668,7 @@ Fin Estilos artistas
   box-sizing: border-box !important; }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif !important;
-  overflow-x: hidden; }
+  font-family: 'Roboto Condensed', sans-serif !important; }
   body ::selection {
     color: #000;
     background-color: #d61919d5; }
@@ -677,10 +695,10 @@ p {
   font-size: 1.25rem !important; }
 
 /* fin estilos generales */
-.cta-btn, .somos-container-img img, .img-artistas, .card-artistas {
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   border-radius: 20px 0px 20px 0px; }
 
-.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover {
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
 
 .cta-btn:hover {
@@ -699,8 +717,13 @@ p {
   font-weight: 700;
   transition: all .5s ease; }
 
-#somos, #servicios, #artistas, #playlist {
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
   padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
 
 /* ==============================
 Estilos Playlist
@@ -782,8 +805,7 @@ Fin Estilos playlist
   box-sizing: border-box !important; }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif !important;
-  overflow-x: hidden; }
+  font-family: 'Roboto Condensed', sans-serif !important; }
   body ::selection {
     color: #000;
     background-color: #d61919d5; }
@@ -810,10 +832,10 @@ p {
   font-size: 1.25rem !important; }
 
 /* fin estilos generales */
-.cta-btn, .somos-container-img img, .img-artistas, .card-artistas {
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   border-radius: 20px 0px 20px 0px; }
 
-.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover {
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
 
 .cta-btn:hover {
@@ -832,8 +854,13 @@ p {
   font-weight: 700;
   transition: all .5s ease; }
 
-#somos, #servicios, #artistas, #playlist {
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
   padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
 
 /* ==============================
 Estilos footer
@@ -948,8 +975,7 @@ Fin Estilos footer
   box-sizing: border-box !important; }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif !important;
-  overflow-x: hidden; }
+  font-family: 'Roboto Condensed', sans-serif !important; }
   body ::selection {
     color: #000;
     background-color: #d61919d5; }
@@ -976,10 +1002,10 @@ p {
   font-size: 1.25rem !important; }
 
 /* fin estilos generales */
-.cta-btn, .somos-container-img img, .img-artistas, .card-artistas {
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   border-radius: 20px 0px 20px 0px; }
 
-.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover {
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
   box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
 
 .cta-btn:hover {
@@ -998,8 +1024,13 @@ p {
   font-weight: 700;
   transition: all .5s ease; }
 
-#somos, #servicios, #artistas, #playlist {
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
   padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
 
 /* ==============================
 Estilos formulario
@@ -1050,5 +1081,638 @@ Estilos formulario
 /* ==============================
 Fin Estilos formulario
 ==================================*/
+/* estilos generales */
+* {
+  margin: 0% !important;
+  padding: 0% !important;
+  box-sizing: border-box !important; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif !important; }
+  body ::selection {
+    color: #000;
+    background-color: #d61919d5; }
+
+h1 {
+  font-size: 5rem !important; }
+
+h2 {
+  font-size: 3.5rem !important; }
+
+h3 {
+  font-size: 3rem !important; }
+
+h4 {
+  font-size: 2.5rem !important; }
+
+h5 {
+  font-size: 2rem !important; }
+
+h6 {
+  font-size: 1.5rem !important; }
+
+p {
+  font-size: 1.25rem !important; }
+
+/* fin estilos generales */
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
+  border-radius: 20px 0px 20px 0px; }
+
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
+
+.cta-btn:hover {
+  transform: scale(1.1);
+  border-radius: 50px;
+  color: #fff;
+  background-color: #000;
+  border: solid #fff 3px; }
+
+.cta-btn {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem !important;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  transition: all .5s ease; }
+
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
+  padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
+
+/* estilos generales */
+* {
+  margin: 0% !important;
+  padding: 0% !important;
+  box-sizing: border-box !important; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif !important; }
+  body ::selection {
+    color: #000;
+    background-color: #d61919d5; }
+
+h1 {
+  font-size: 5rem !important; }
+
+h2 {
+  font-size: 3.5rem !important; }
+
+h3 {
+  font-size: 3rem !important; }
+
+h4 {
+  font-size: 2.5rem !important; }
+
+h5 {
+  font-size: 2rem !important; }
+
+h6 {
+  font-size: 1.5rem !important; }
+
+p {
+  font-size: 1.25rem !important; }
+
+/* fin estilos generales */
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
+  border-radius: 20px 0px 20px 0px; }
+
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
+
+.cta-btn:hover {
+  transform: scale(1.1);
+  border-radius: 50px;
+  color: #fff;
+  background-color: #000;
+  border: solid #fff 3px; }
+
+.cta-btn {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem !important;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  transition: all .5s ease; }
+
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
+  padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
+
+/*estilos perfil Drake*/
+.profile-drake-title-text {
+  background-image: url("../../multimedia/drake-image-two.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 20rem !important;
+  padding-left: 3rem !important;
+  display: flex;
+  align-items: center; }
+  .profile-drake-title-text h1 {
+    color: #fff; }
+
+.profile-drake-personal-information h3 {
+  margin-bottom: 3rem !important;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #000; }
+
+.profile-drake-personal-information-row-one {
+  margin-bottom: 3rem !important; }
+  .profile-drake-personal-information-row-one .drake-personal-information-row-one-text {
+    grid-column: 1/2; }
+    .profile-drake-personal-information-row-one .drake-personal-information-row-one-text p {
+      text-align: justify; }
+  .profile-drake-personal-information-row-one .drake-personal-information-row-one-img {
+    grid-column: 2/3; }
+
+.drake-profile-img-one, .drake-profile-img-two {
+  width: 35rem; }
+
+.profile-drake-personal-information-row-two .drake-personal-information-row-two-img {
+  grid-column: 1/2; }
+.profile-drake-personal-information-row-two .drake-personal-information-row-two-text {
+  grid-column: 2/3; }
+  .profile-drake-personal-information-row-two .drake-personal-information-row-two-text p {
+    text-align: justify; }
+
+/*estilos mobile Drake*/
+@media screen and (max-width: 995px) {
+  .profile-drake-personal-information {
+    padding: 5rem 3rem !important; }
+
+  .profile-drake-title-text {
+    background-image: url("../../multimedia/drake-image-two.webp");
+    background-size: cover;
+    background-attachment: none;
+    height: 20rem !important;
+    padding-left: 3rem !important;
+    display: flex;
+    align-items: center; }
+    .profile-drake-title-text h1 {
+      color: #fff; }
+
+  .drake-profile-img-one, .drake-profile-img-two {
+    width: 80vw;
+    display: flex;
+    justify-content: center; }
+
+  .profile-drake-personal-information h3 {
+    text-align: center;
+    color: #000; }
+
+  .drake-personal-information-row-one-text {
+    grid-column: 1/-1 !important; }
+
+  .drake-personal-information-row-one-img {
+    grid-column: 1/-1 !important;
+    display: flex;
+    justify-content: center; }
+
+  .drake-personal-information-row-one-text {
+    grid-column: 1/-1 !important; }
+
+  .drake-personal-information-row-two-img {
+    grid-column: 1/-1 !important;
+    display: flex;
+    justify-content: center;
+    order: 2; }
+
+  .drake-personal-information-row-two-text {
+    grid-column: 1/-1 !important;
+    order: 1; } }
+/*fin estilos perfil Drake*/
+/* estilos generales */
+* {
+  margin: 0% !important;
+  padding: 0% !important;
+  box-sizing: border-box !important; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif !important; }
+  body ::selection {
+    color: #000;
+    background-color: #d61919d5; }
+
+h1 {
+  font-size: 5rem !important; }
+
+h2 {
+  font-size: 3.5rem !important; }
+
+h3 {
+  font-size: 3rem !important; }
+
+h4 {
+  font-size: 2.5rem !important; }
+
+h5 {
+  font-size: 2rem !important; }
+
+h6 {
+  font-size: 1.5rem !important; }
+
+p {
+  font-size: 1.25rem !important; }
+
+/* fin estilos generales */
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
+  border-radius: 20px 0px 20px 0px; }
+
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
+
+.cta-btn:hover {
+  transform: scale(1.1);
+  border-radius: 50px;
+  color: #fff;
+  background-color: #000;
+  border: solid #fff 3px; }
+
+.cta-btn {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem !important;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  transition: all .5s ease; }
+
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
+  padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
+
+/* estilos generales */
+* {
+  margin: 0% !important;
+  padding: 0% !important;
+  box-sizing: border-box !important; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif !important; }
+  body ::selection {
+    color: #000;
+    background-color: #d61919d5; }
+
+h1 {
+  font-size: 5rem !important; }
+
+h2 {
+  font-size: 3.5rem !important; }
+
+h3 {
+  font-size: 3rem !important; }
+
+h4 {
+  font-size: 2.5rem !important; }
+
+h5 {
+  font-size: 2rem !important; }
+
+h6 {
+  font-size: 1.5rem !important; }
+
+p {
+  font-size: 1.25rem !important; }
+
+/* fin estilos generales */
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
+  border-radius: 20px 0px 20px 0px; }
+
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
+
+.cta-btn:hover {
+  transform: scale(1.1);
+  border-radius: 50px;
+  color: #fff;
+  background-color: #000;
+  border: solid #fff 3px; }
+
+.cta-btn {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem !important;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  transition: all .5s ease; }
+
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
+  padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
+
+/*estilos perfil The weeknd*/
+.profile-theweeknd-title-text {
+  background-image: url("../../multimedia/the-weeknd-portada.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 20rem !important;
+  padding-left: 3rem !important;
+  display: flex;
+  align-items: center; }
+  .profile-theweeknd-title-text h1 {
+    color: #fff; }
+
+.profile-theweeknd-personal-information h3 {
+  margin-bottom: 3rem !important;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #000; }
+
+.profile-theweeknd-personal-information-row-one {
+  margin-bottom: 3rem !important; }
+  .profile-theweeknd-personal-information-row-one .theweeknd-personal-information-row-one-text {
+    grid-column: 1/2; }
+    .profile-theweeknd-personal-information-row-one .theweeknd-personal-information-row-one-text p {
+      text-align: justify; }
+  .profile-theweeknd-personal-information-row-one .theweeknd-personal-information-row-one-img {
+    grid-column: 2/3; }
+
+.theweeknd-profile-img-one, .theweeknd-profile-img-two {
+  width: 35rem; }
+
+.profile-theweeknd-personal-information-row-two .theweeknd-personal-information-row-two-img {
+  grid-column: 1/2; }
+.profile-theweeknd-personal-information-row-two .theweeknd-personal-information-row-two-text {
+  grid-column: 2/3; }
+  .profile-theweeknd-personal-information-row-two .theweeknd-personal-information-row-two-text p {
+    text-align: justify; }
+
+/*estilos mobile theweeknd*/
+@media screen and (max-width: 995px) {
+  .profile-theweeknd-personal-information {
+    padding: 5rem 3rem !important; }
+
+  .profile-theweeknd-title-text {
+    background-image: url("../../multimedia/the-weeknd-portada.webp");
+    background-size: cover;
+    background-attachment: none;
+    height: 20rem !important;
+    padding-left: 3rem !important;
+    display: flex;
+    align-items: center; }
+    .profile-theweeknd-title-text h1 {
+      color: #fff; }
+
+  .theweeknd-profile-img-one, .theweeknd-profile-img-two {
+    width: 80vw;
+    display: flex;
+    justify-content: center; }
+
+  .profile-theweeknd-personal-information h3 {
+    text-align: center;
+    color: #000; }
+
+  .theweeknd-personal-information-row-one-text {
+    grid-column: 1/-1 !important; }
+
+  .theweeknd-personal-information-row-one-img {
+    grid-column: 1/-1 !important;
+    display: flex;
+    justify-content: center; }
+
+  .drake-personal-information-row-one-text {
+    grid-column: 1/-1 !important; }
+
+  .theweeknd-personal-information-row-two-img {
+    grid-column: 1/-1 !important;
+    display: flex;
+    justify-content: center;
+    order: 2; }
+
+  .theweeknd-personal-information-row-two-text {
+    grid-column: 1/-1 !important;
+    order: 1; } }
+/*fin estilos perfil theweeknd*/
+/* estilos generales */
+* {
+  margin: 0% !important;
+  padding: 0% !important;
+  box-sizing: border-box !important; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif !important; }
+  body ::selection {
+    color: #000;
+    background-color: #d61919d5; }
+
+h1 {
+  font-size: 5rem !important; }
+
+h2 {
+  font-size: 3.5rem !important; }
+
+h3 {
+  font-size: 3rem !important; }
+
+h4 {
+  font-size: 2.5rem !important; }
+
+h5 {
+  font-size: 2rem !important; }
+
+h6 {
+  font-size: 1.5rem !important; }
+
+p {
+  font-size: 1.25rem !important; }
+
+/* fin estilos generales */
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
+  border-radius: 20px 0px 20px 0px; }
+
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
+
+.cta-btn:hover {
+  transform: scale(1.1);
+  border-radius: 50px;
+  color: #fff;
+  background-color: #000;
+  border: solid #fff 3px; }
+
+.cta-btn {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem !important;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  transition: all .5s ease; }
+
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
+  padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
+
+/* estilos generales */
+* {
+  margin: 0% !important;
+  padding: 0% !important;
+  box-sizing: border-box !important; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif !important; }
+  body ::selection {
+    color: #000;
+    background-color: #d61919d5; }
+
+h1 {
+  font-size: 5rem !important; }
+
+h2 {
+  font-size: 3.5rem !important; }
+
+h3 {
+  font-size: 3rem !important; }
+
+h4 {
+  font-size: 2.5rem !important; }
+
+h5 {
+  font-size: 2rem !important; }
+
+h6 {
+  font-size: 1.5rem !important; }
+
+p {
+  font-size: 1.25rem !important; }
+
+/* fin estilos generales */
+.cta-btn, .somos-container-img img, .img-artistas, .card-artistas, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
+  border-radius: 20px 0px 20px 0px; }
+
+.somos-container-img img, .estilos-servicios:hover, .card-artistas:hover, .drake-profile-img-one, .drake-profile-img-two, .theweeknd-profile-img-one, .theweeknd-profile-img-two, .wos-profile-img-one, .wos-profile-img-two {
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3); }
+
+.cta-btn:hover {
+  transform: scale(1.1);
+  border-radius: 50px;
+  color: #fff;
+  background-color: #000;
+  border: solid #fff 3px; }
+
+.cta-btn {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem !important;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  transition: all .5s ease; }
+
+#somos, #servicios, #artistas, #playlist, .profile-drake-personal-information, .profile-theweeknd-personal-information, .profile-wos-personal-information {
+  padding: 7rem 5rem !important; }
+
+.profile-drake-personal-information-row-one, .profile-drake-personal-information-row-two, .profile-theweeknd-personal-information-row-one, .profile-theweeknd-personal-information-row-two, .profile-wos-personal-information-row-one, .profile-wos-personal-information-row-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem !important; }
+
+/*estilos perfil wos*/
+.profile-wos-title-text {
+  background-image: url("../../multimedia/wos-portada.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 20rem !important;
+  padding-left: 3rem !important;
+  display: flex;
+  align-items: center; }
+  .profile-wos-title-text h1 {
+    color: #fff; }
+
+.profile-wos-personal-information h3 {
+  margin-bottom: 3rem !important;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #000; }
+
+.profile-wos-personal-information-row-one {
+  margin-bottom: 3rem !important; }
+  .profile-wos-personal-information-row-one .wos-personal-information-row-one-text {
+    grid-column: 1/2; }
+    .profile-wos-personal-information-row-one .wos-personal-information-row-one-text p {
+      text-align: justify; }
+  .profile-wos-personal-information-row-one .wos-personal-information-row-one-img {
+    grid-column: 2/3; }
+
+.wos-profile-img-one, .wos-profile-img-two {
+  width: 35rem; }
+
+.profile-wos-personal-information-row-two .wos-personal-information-row-two-img {
+  grid-column: 1/2; }
+.profile-wos-personal-information-row-two .wos-personal-information-row-two-text {
+  grid-column: 2/3; }
+  .profile-wos-personal-information-row-two .wos-personal-information-row-two-text p {
+    text-align: justify; }
+
+/*estilos mobile wos*/
+@media screen and (max-width: 995px) {
+  .profile-wos-personal-information {
+    padding: 5rem 3rem !important; }
+
+  .profile-wos-title-text {
+    background-image: url("../../multimedia/wos-portada.webp");
+    background-size: cover;
+    background-attachment: none;
+    height: 20rem !important;
+    padding-left: 3rem !important;
+    display: flex;
+    align-items: center; }
+    .profile-wos-title-text h1 {
+      color: #fff; }
+
+  .wos-profile-img-one, .wos-profile-img-two {
+    width: 80vw;
+    display: flex;
+    justify-content: center; }
+
+  .profile-wos-personal-information h3 {
+    text-align: center;
+    color: #000; }
+
+  .wos-personal-information-row-one-text {
+    grid-column: 1/-1 !important; }
+
+  .wos-personal-information-row-one-img {
+    grid-column: 1/-1 !important;
+    display: flex;
+    justify-content: center; }
+
+  .wos-personal-information-row-one-text {
+    grid-column: 1/-1 !important; }
+
+  .wos-personal-information-row-two-img {
+    grid-column: 1/-1 !important;
+    display: flex;
+    justify-content: center;
+    order: 2; }
+
+  .wos-personal-information-row-two-text {
+    grid-column: 1/-1 !important;
+    order: 1; } }
+/*fin estilos perfil wos*/
 
 /*# sourceMappingURL=styles.css.map */

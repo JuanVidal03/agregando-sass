@@ -1,0 +1,114 @@
+@import '../base/variables';
+@import '../base/estilos-generales';
+@import '../base/extends';
+@import '../base/mixin';
+
+/*estilos perfil Drake*/
+
+.profile-drake-title-text{
+    @include baner-perfiles-artistas ("../../multimedia/drake-image-two.webp", fixed);
+}
+
+.profile-drake-personal-information{
+    @extend %estilo-section-desktop;
+
+    h3{
+        margin-bottom: 3rem !important;
+        text-transform: uppercase;
+        text-decoration: underline;
+        color: $color-primario;
+    }
+}
+
+.profile-drake-personal-information-row-one {
+    @extend %estructura-perfiles;
+    margin-bottom: 3rem !important;
+
+    .drake-personal-information-row-one-text{
+        grid-column: 1/2;
+        p{
+            text-align: justify;
+        }
+    }
+
+    .drake-personal-information-row-one-img{
+        grid-column: 2/3;
+    }
+}
+
+.drake-profile-img-one, .drake-profile-img-two {
+    width: 35rem;
+    @extend %border-radius;
+    @extend  %box-shadow;
+
+}
+
+.profile-drake-personal-information-row-two{
+    @extend %estructura-perfiles;
+
+    .drake-personal-information-row-two-img{
+        grid-column: 1/2;
+    }
+
+    .drake-personal-information-row-two-text{
+        grid-column: 2/3;
+        p{
+            text-align: justify;
+        }
+    }
+}
+
+//estilos mobile perfiles artistas
+/*estilos mobile Drake*/
+
+@media screen and (max-width: 995px) {
+
+    .profile-drake-personal-information{
+        padding: 5rem 3rem !important;
+    }
+
+    .profile-drake-title-text{
+        @include baner-perfiles-artistas ("../../multimedia/drake-image-two.webp", none);
+    }
+
+    .drake-profile-img-one, .drake-profile-img-two{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-drake-personal-information{
+        h3{
+            text-align: center;
+            color: $color-primario;
+        }
+    }
+
+    .drake-personal-information-row-one-text {
+        grid-column: 1/-1 !important;
+    }
+
+    .drake-personal-information-row-one-img {
+        grid-column: 1/-1 !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .drake-personal-information-row-one-text {
+        grid-column: 1/-1 !important;
+    }
+
+    .drake-personal-information-row-two-img {
+        grid-column: 1/-1 !important;
+        display: flex;
+        justify-content: center;
+        order: 2;
+    }
+
+    .drake-personal-information-row-two-text {
+        grid-column: 1/-1 !important;
+        order: 1;
+    }
+}
+
+/*fin estilos perfil Drake*/

@@ -1,0 +1,114 @@
+@import '../base/variables';
+@import '../base/estilos-generales';
+@import '../base/extends';
+@import '../base/mixin';
+
+/*estilos perfil The weeknd*/
+
+.profile-theweeknd-title-text{
+    @include baner-perfiles-artistas ("../../multimedia/the-weeknd-portada.webp", fixed);
+}
+
+.profile-theweeknd-personal-information{
+    @extend %estilo-section-desktop;
+
+    h3{
+        margin-bottom: 3rem !important;
+        text-transform: uppercase;
+        text-decoration: underline;
+        color: $color-primario;
+    }
+}
+
+.profile-theweeknd-personal-information-row-one {
+    @extend %estructura-perfiles;
+    margin-bottom: 3rem !important;
+
+    .theweeknd-personal-information-row-one-text{
+        grid-column: 1/2;
+        p{
+            text-align: justify;
+        }
+    }
+
+    .theweeknd-personal-information-row-one-img{
+        grid-column: 2/3;
+    }
+}
+
+.theweeknd-profile-img-one, .theweeknd-profile-img-two {
+    width: 35rem;
+    @extend %border-radius;
+    @extend  %box-shadow;
+
+}
+
+.profile-theweeknd-personal-information-row-two{
+    @extend %estructura-perfiles;
+
+    .theweeknd-personal-information-row-two-img{
+        grid-column: 1/2;
+    }
+
+    .theweeknd-personal-information-row-two-text{
+        grid-column: 2/3;
+        p{
+            text-align: justify;
+        }
+    }
+}
+
+//estilos mobile perfiles artistas
+/*estilos mobile theweeknd*/
+
+@media screen and (max-width: 995px) {
+
+    .profile-theweeknd-personal-information{
+        padding: 5rem 3rem !important;
+    }
+
+    .profile-theweeknd-title-text{
+        @include baner-perfiles-artistas ("../../multimedia/the-weeknd-portada.webp", none);
+    }
+
+    .theweeknd-profile-img-one, .theweeknd-profile-img-two{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-theweeknd-personal-information{
+        h3{
+            text-align: center;
+            color: $color-primario;
+        }
+    }
+
+    .theweeknd-personal-information-row-one-text {
+        grid-column: 1/-1 !important;
+    }
+
+    .theweeknd-personal-information-row-one-img {
+        grid-column: 1/-1 !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .drake-personal-information-row-one-text {
+        grid-column: 1/-1 !important;
+    }
+
+    .theweeknd-personal-information-row-two-img {
+        grid-column: 1/-1 !important;
+        display: flex;
+        justify-content: center;
+        order: 2;
+    }
+
+    .theweeknd-personal-information-row-two-text {
+        grid-column: 1/-1 !important;
+        order: 1;
+    }
+}
+
+/*fin estilos perfil theweeknd*/

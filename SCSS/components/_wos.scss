@@ -1,0 +1,114 @@
+@import '../base/variables';
+@import '../base/estilos-generales';
+@import '../base/extends';
+@import '../base/mixin';
+
+/*estilos perfil wos*/
+
+.profile-wos-title-text{
+    @include baner-perfiles-artistas ("../../multimedia/wos-portada.webp", fixed);
+}
+
+.profile-wos-personal-information{
+    @extend %estilo-section-desktop;
+
+    h3{
+        margin-bottom: 3rem !important;
+        text-transform: uppercase;
+        text-decoration: underline;
+        color: $color-primario;
+    }
+}
+
+.profile-wos-personal-information-row-one {
+    @extend %estructura-perfiles;
+    margin-bottom: 3rem !important;
+
+    .wos-personal-information-row-one-text{
+        grid-column: 1/2;
+        p{
+            text-align: justify;
+        }
+    }
+
+    .wos-personal-information-row-one-img{
+        grid-column: 2/3;
+    }
+}
+
+.wos-profile-img-one, .wos-profile-img-two {
+    width: 35rem;
+    @extend %border-radius;
+    @extend  %box-shadow;
+
+}
+
+.profile-wos-personal-information-row-two{
+    @extend %estructura-perfiles;
+
+    .wos-personal-information-row-two-img{
+        grid-column: 1/2;
+    }
+
+    .wos-personal-information-row-two-text{
+        grid-column: 2/3;
+        p{
+            text-align: justify;
+        }
+    }
+}
+
+//estilos mobile perfiles artistas
+/*estilos mobile wos*/
+
+@media screen and (max-width: 995px) {
+
+    .profile-wos-personal-information{
+        padding: 5rem 3rem !important;
+    }
+
+    .profile-wos-title-text{
+        @include baner-perfiles-artistas ("../../multimedia/wos-portada.webp", none);
+    }
+
+    .wos-profile-img-one, .wos-profile-img-two{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-wos-personal-information{
+        h3{
+            text-align: center;
+            color: $color-primario;
+        }
+    }
+
+    .wos-personal-information-row-one-text {
+        grid-column: 1/-1 !important;
+    }
+
+    .wos-personal-information-row-one-img {
+        grid-column: 1/-1 !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .wos-personal-information-row-one-text {
+        grid-column: 1/-1 !important;
+    }
+
+    .wos-personal-information-row-two-img {
+        grid-column: 1/-1 !important;
+        display: flex;
+        justify-content: center;
+        order: 2;
+    }
+
+    .wos-personal-information-row-two-text {
+        grid-column: 1/-1 !important;
+        order: 1;
+    }
+}
+
+/*fin estilos perfil wos*/

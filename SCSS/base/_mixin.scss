@@ -1,0 +1,18 @@
+@import 'variables';
+@import 'estilos-generales';
+@import 'extends';
+
+
+@mixin baner-perfiles-artistas  ($bg-img, $attahcement){
+    background-image: url($bg-img);
+    background-size: cover;
+    background-attachment: $attahcement;
+    height: 20rem !important;
+    padding-left: 3rem !important;
+    display: flex;
+    align-items: center;
+
+    h1{
+        color: $color-secundario;
+    }
+}
