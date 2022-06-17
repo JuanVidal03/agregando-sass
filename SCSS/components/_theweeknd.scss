@@ -6,7 +6,7 @@
 /*estilos perfil The weeknd*/
 
 .profile-theweeknd-title-text{
-    @include baner-perfiles-artistas ("../../multimedia/the-weeknd-portada.webp", fixed);
+    @include baner-perfiles-artistas ("../multimedia/the-weeknd-portada.webp", fixed);
 }
 
 .profile-theweeknd-personal-information{
@@ -68,7 +68,7 @@
     }
 
     .profile-theweeknd-title-text{
-        @include baner-perfiles-artistas ("../../multimedia/the-weeknd-portada.webp", none);
+        @include baner-perfiles-artistas ("../multimedia/the-weeknd-portada.webp", none);
     }
 
     .theweeknd-profile-img-one, .theweeknd-profile-img-two{

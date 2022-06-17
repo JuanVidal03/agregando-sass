@@ -6,7 +6,7 @@
 /*estilos perfil wos*/
 
 .profile-wos-title-text{
-    @include baner-perfiles-artistas ("../../multimedia/wos-portada.webp", fixed);
+    @include baner-perfiles-artistas ("../multimedia/wos-portada.webp", fixed);
 }
 
 .profile-wos-personal-information{
@@ -68,7 +68,7 @@
     }
 
     .profile-wos-title-text{
-        @include baner-perfiles-artistas ("../../multimedia/wos-portada.webp", none);
+        @include baner-perfiles-artistas ("../multimedia/wos-portada.webp", none);
     }
 
     .wos-profile-img-one, .wos-profile-img-two{

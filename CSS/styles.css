@@ -158,7 +158,7 @@ Estilos section inicio
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../multimedia/estudio.webp");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/estudio.webp");
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -1211,7 +1211,7 @@ p {
 
 /*estilos perfil Drake*/
 .profile-drake-title-text {
-  background-image: url("../../multimedia/drake-image-two.webp");
+  background-image: url("../multimedia/drake-image-two.webp");
   background-size: cover;
   background-attachment: fixed;
   height: 20rem !important;
@@ -1252,7 +1252,7 @@ p {
     padding: 5rem 3rem !important; }
 
   .profile-drake-title-text {
-    background-image: url("../../multimedia/drake-image-two.webp");
+    background-image: url("../multimedia/drake-image-two.webp");
     background-size: cover;
     background-attachment: none;
     height: 20rem !important;
@@ -1422,7 +1422,7 @@ p {
 
 /*estilos perfil The weeknd*/
 .profile-theweeknd-title-text {
-  background-image: url("../../multimedia/the-weeknd-portada.webp");
+  background-image: url("../multimedia/the-weeknd-portada.webp");
   background-size: cover;
   background-attachment: fixed;
   height: 20rem !important;
@@ -1463,7 +1463,7 @@ p {
     padding: 5rem 3rem !important; }
 
   .profile-theweeknd-title-text {
-    background-image: url("../../multimedia/the-weeknd-portada.webp");
+    background-image: url("../multimedia/the-weeknd-portada.webp");
     background-size: cover;
     background-attachment: none;
     height: 20rem !important;
@@ -1633,7 +1633,7 @@ p {
 
 /*estilos perfil wos*/
 .profile-wos-title-text {
-  background-image: url("../../multimedia/wos-portada.webp");
+  background-image: url("../multimedia/wos-portada.webp");
   background-size: cover;
   background-attachment: fixed;
   height: 20rem !important;
@@ -1674,7 +1674,7 @@ p {
     padding: 5rem 3rem !important; }
 
   .profile-wos-title-text {
-    background-image: url("../../multimedia/wos-portada.webp");
+    background-image: url("../multimedia/wos-portada.webp");
     background-size: cover;
     background-attachment: none;
     height: 20rem !important;

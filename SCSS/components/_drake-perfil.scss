@@ -6,7 +6,7 @@
 /*estilos perfil Drake*/
 
 .profile-drake-title-text{
-    @include baner-perfiles-artistas ("../../multimedia/drake-image-two.webp", fixed);
+    @include baner-perfiles-artistas ("../multimedia/drake-image-two.webp", fixed);
 }
 
 .profile-drake-personal-information{
@@ -68,7 +68,7 @@
     }
 
     .profile-drake-title-text{
-        @include baner-perfiles-artistas ("../../multimedia/drake-image-two.webp", none);
+        @include baner-perfiles-artistas ("../multimedia/drake-image-two.webp", none);
     }
 
     .drake-profile-img-one, .drake-profile-img-two{
