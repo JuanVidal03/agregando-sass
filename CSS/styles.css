@@ -1249,7 +1249,7 @@ p {
 /*estilos mobile Drake*/
 @media screen and (max-width: 995px) {
   .profile-drake-personal-information {
-    padding: 5rem 3rem !important; }
+    padding: 50px 30px !important; }
 
   .profile-drake-title-text {
     background-image: url("../multimedia/drake-image-two.webp");
@@ -1489,9 +1489,6 @@ p {
     grid-column: 1/-1 !important;
     display: flex;
     justify-content: center; }
-
-  .drake-personal-information-row-one-text {
-    grid-column: 1/-1 !important; }
 
   .theweeknd-personal-information-row-two-img {
     grid-column: 1/-1 !important;
