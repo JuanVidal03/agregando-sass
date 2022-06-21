@@ -1,4 +1,4 @@
-# agregando-sass
+# sello discografico coderhouse proyecto final
 Un sitio web usando HTML5, CSS3, Bootstrap y SASS
 <h1 align="center">Hi 👋, I'm Juan Vidal</h1>
 <h3 align="center">A passionate frontend developer from Colombia</h3>
