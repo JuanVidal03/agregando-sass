@@ -1248,8 +1248,8 @@ p {
 
 /*estilos mobile Drake*/
 @media screen and (max-width: 995px) {
-  .profile-drake-personal-information {
-    padding: 50px 30px !important; }
+  #profile-drake-personal-information {
+    padding: 5rem 3rem !important; }
 
   .profile-drake-title-text {
     background-image: url("../multimedia/drake-image-two.webp");
@@ -1263,12 +1263,12 @@ p {
       color: #fff; }
 
   .drake-profile-img-one, .drake-profile-img-two {
-    width: 80vw;
+    width: 70vw;
     display: flex;
     justify-content: center; }
 
   .profile-drake-personal-information h3 {
-    text-align: center;
+    text-align: center !important;
     color: #000; }
 
   .drake-personal-information-row-one-text {
@@ -1459,7 +1459,7 @@ p {
 
 /*estilos mobile theweeknd*/
 @media screen and (max-width: 995px) {
-  .profile-theweeknd-personal-information {
+  #profile-theweeknd-personal-information {
     padding: 5rem 3rem !important; }
 
   .profile-theweeknd-title-text {
@@ -1474,12 +1474,12 @@ p {
       color: #fff; }
 
   .theweeknd-profile-img-one, .theweeknd-profile-img-two {
-    width: 80vw;
+    width: 70vw;
     display: flex;
     justify-content: center; }
 
   .profile-theweeknd-personal-information h3 {
-    text-align: center;
+    text-align: center !important;
     color: #000; }
 
   .theweeknd-personal-information-row-one-text {
@@ -1682,12 +1682,12 @@ p {
       color: #fff; }
 
   .wos-profile-img-one, .wos-profile-img-two {
-    width: 80vw;
+    width: 70vw;
     display: flex;
     justify-content: center; }
 
   .profile-wos-personal-information h3 {
-    text-align: center;
+    text-align: center !important;
     color: #000; }
 
   .wos-personal-information-row-one-text {

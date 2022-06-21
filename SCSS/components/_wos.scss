@@ -72,14 +72,14 @@
     }
 
     .wos-profile-img-one, .wos-profile-img-two{
-        width: 80vw;
+        width: 70vw;
         display: flex;
         justify-content: center;
     }
 
     .profile-wos-personal-information{
         h3{
-            text-align: center;
+            text-align: center !important;
             color: $color-primario;
         }
     }

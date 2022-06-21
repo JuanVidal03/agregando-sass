@@ -63,7 +63,7 @@
 
 @media screen and (max-width: 995px) {
 
-    .profile-drake-personal-information{
+    #profile-drake-personal-information{
         padding: 5rem 3rem !important;
     }
 
@@ -72,14 +72,14 @@
     }
 
     .drake-profile-img-one, .drake-profile-img-two{
-        width: 80vw;
+        width: 70vw;
         display: flex;
         justify-content: center;
     }
 
     .profile-drake-personal-information{
         h3{
-            text-align: center;
+            text-align: center !important;
             color: $color-primario;
         }
     }

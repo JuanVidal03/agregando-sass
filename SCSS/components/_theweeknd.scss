@@ -63,7 +63,7 @@
 
 @media screen and (max-width: 995px) {
 
-    .profile-theweeknd-personal-information{
+    #profile-theweeknd-personal-information{
         padding: 5rem 3rem !important;
     }
 
@@ -72,14 +72,14 @@
     }
 
     .theweeknd-profile-img-one, .theweeknd-profile-img-two{
-        width: 80vw;
+        width: 70vw;
         display: flex;
         justify-content: center;
     }
 
     .profile-theweeknd-personal-information{
         h3{
-            text-align: center;
+            text-align: center !important;
             color: $color-primario;
         }
     }
